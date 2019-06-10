@@ -2,16 +2,17 @@
 
 I've compiled a list of useful tools that come in handy when modifying the firmware, especially when applying updated via USB on newer SMEG+ IV2 units.
 
-### Contents
+__Contents__
 - [crc.cpp](#crc_cpp)  
 
 
 ---
 
 <a name="crc_cpp"/>
-##### crc.cpp
+## crc.cpp
+
 This is a custom tool to compile crc for firmware files.
-The original version of this C++ code is by sven337 over at the Planete Citroen forums ([see here](http://www.planete-citroen.com/forum/showthread.php?152326-Ing%C3%A9nierie-inverse-du-RT6)).
+The original version of this C++ code is by sven337 over at the Planete Citroen forums [see here](http://www.planete-citroen.com/forum/showthread.php?152326-Ing%C3%A9nierie-inverse-du-RT6).
 
 __Instructions__
 - Once the `.bin` has been recompiled,  simply run `./crc FILENAME.bin` to generate the last 4 characters of the CRC. Place these four characters into the first line of the `.inf` file.
