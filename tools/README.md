@@ -9,7 +9,7 @@ __Contents__
 ---
 
 <a name="crc_cpp"/>
-## crc.cpp
+# crc.cpp
 
 This is a custom tool to compile crc for firmware files.
 The original version of this C++ code is by sven337 over at the Planete Citroen forums [see here](http://www.planete-citroen.com/forum/showthread.php?152326-Ing%C3%A9nierie-inverse-du-RT6).
