@@ -86,11 +86,11 @@
 	 }
 
 	 fclose(f);
-	 
+
 	 if (isInf != std::string::npos) {
 	 	printf("Computed INF CRC as %.2x%.2x****\n", crc16[1], crc16[0]);
 	 } else {
-	 	printf("Computed BIN CRC ****%.2x%.2x\n", crc16[1], crc16[0]);
+	 	printf("Computed FILE CRC ****%.2x%.2x\n", crc16[1], crc16[0]);
 	 }
 
 	 return 0;
